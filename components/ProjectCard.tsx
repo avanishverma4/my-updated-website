@@ -86,14 +86,19 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
         </div>
         
         {/* View Project Button Overlay */}
-        <div className="absolute inset-0 bg-stone-900/10 dark:bg-black/20 backdrop-blur-[2px] flex items-center justify-center transition-all duration-700 opacity-0 group-hover:opacity-100">
+        <a 
+          href={project.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="absolute inset-0 bg-stone-900/10 dark:bg-black/20 backdrop-blur-[2px] flex items-center justify-center transition-all duration-700 opacity-0 group-hover:opacity-100 z-20"
+        >
           <div 
             className="bg-white/80 dark:bg-stone-100 text-stone-900 px-10 py-4 rounded-full text-[10px] uppercase tracking-[0.3em] font-bold border border-white dark:border-white shadow-2xl"
             style={{ transform: 'translateZ(80px)' }}
           >
             View Project
           </div>
-        </div>
+        </a>
       </div>
 
       <div className="space-y-5 px-3 transition-transform duration-500 ease-out group-hover:translate-x-1">
