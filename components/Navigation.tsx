@@ -137,7 +137,7 @@ const Navigation: React.FC<NavigationProps> = ({ isDarkMode, toggleDarkMode }) =
           >
              <div className="w-8 h-px bg-stone-200 dark:bg-stone-800"></div>
              <div className="flex gap-10">
-               <a href="https://www.linkedin.com/in/awanishverma/" target="_blank" rel="noopener" className="text-[10px] uppercase tracking-[0.3em] text-stone-400 font-bold hover:text-black dark:hover:text-white transition-colors">LinkedIn</a>
+               <a href="https://www.linkedin.com/in/awanish-verma/" target="_blank" rel="noopener" className="text-[10px] uppercase tracking-[0.3em] text-stone-400 font-bold hover:text-black dark:hover:text-white transition-colors">LinkedIn</a>
                <a href="http://github.com/avanishverma4/" target="_blank" rel="noopener" className="text-[10px] uppercase tracking-[0.3em] text-stone-400 font-bold hover:text-black dark:hover:text-white transition-colors">GitHub</a>
                <a href="https://www.behance.net/avanishverma4" target="_blank" rel="noopener" className="text-[10px] uppercase tracking-[0.3em] text-stone-400 font-bold hover:text-black dark:hover:text-white transition-colors">Behance</a>
              </div>

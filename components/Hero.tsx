@@ -33,14 +33,14 @@ const Hero: React.FC = () => {
            <img 
             src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&q=80&w=1920" 
             className="w-full h-full object-cover grayscale dark:opacity-50" 
-            alt="Background"
+            alt="Interior architectural view representing minimalist design philosophy" 
            />
         </div>
       </div>
       
       <div className="relative z-10 text-center max-w-5xl">
         <p className="text-sm uppercase tracking-[0.4em] text-stone-500 dark:text-stone-400 mb-8 reveal active font-bold">
-          Senior UI/UX Designer
+          Awanish Verma — Senior UI/UX Designer
         </p>
         <h1 
           ref={titleRef}
